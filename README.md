@@ -4,7 +4,7 @@ A simple Python project that simulates basic Identity and Access Management (IAM
 
 ---
 
-## 🚀 What This Project Does
+##  What This Project Does
 
 - **Assigns permissions** to users based on their role when they join the company
 - **Updates permissions** when users move to a new role or department
@@ -13,7 +13,7 @@ A simple Python project that simulates basic Identity and Access Management (IAM
 
 ---
 
-## 🧑‍💻 How It Works
+##  How It Works
 
 - Users are defined in a Python list with their name, status (Joiner, Mover, Leaver), and role (Engineer, HR, Finance, etc.)
 - The script automatically:
@@ -24,7 +24,7 @@ A simple Python project that simulates basic Identity and Access Management (IAM
 
 ---
 
-## 💼 Why I Built This
+##  Why I Built This
 
 I’m learning core IAM concepts and practicing automation for real-world tech jobs.  
 This project helps demonstrate my understanding of:
@@ -35,7 +35,7 @@ This project helps demonstrate my understanding of:
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 user-access-lifecycle-manager/
 ├── main.py # Main script to process users
 ├── roles.py # Role and permission definitions
@@ -43,13 +43,13 @@ user-access-lifecycle-manager/
 ├── access_log.json # Log of all access changes (auto-generated)
 └── README.md # This file!
 
-## How To Use
+##  How To Use
 1. Edit the 'users' list in 'main.py' to add or change users.
 2. Run the script with: python3 main.py or just run the script using the "play" button in the IDE that you are using.
 3. See output messages in your terminal.
 4. Check the 'access_log.json file to review all changes and timestamps.
 
-## Example Log Output
+##  Example Log Output
 ```json
 [
   {
